@@ -6758,7 +6758,7 @@ button.close {
 
 h1, h2, h3, h4, h5, h6 {
   color: #FFBA00;
-  font-family: "Arial, Helvetica, sans-serif";
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -6767,4 +6767,19 @@ h2 {
 
 p {
   font-size: 1.2rem;
+}
+
+body {
+  background-color: #0076A3;
+  font-size: 1.2rem;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main#main-content {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #005170;
 }
