@@ -1,12 +1,3 @@
-$black: #000000;
-
-body {
-  background-color: grey;
-}
-h1 {
-  color: white;
-}
-
-h1:hover {
-  transition: color 1s ease;
-}
+@import 'variables';
+@import 'typography';
+@import 'layout';
