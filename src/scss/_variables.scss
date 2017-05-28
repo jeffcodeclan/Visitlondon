@@ -46,11 +46,12 @@ $breakpoints: (
   tablet: 768px,
   desktop: 1024px
 );
-$colums: 12;
+$columns: 12;
 $grid-max-width: 1200px;
 
 // buttons
 $btn-font-size: 16px;
+$btn-font-weight: bold;
 
 // footer
 $bg-footer: $dark-blue;
