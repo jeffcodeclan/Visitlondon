@@ -359,6 +359,30 @@ footer {
   background-color: #997000;
 }
 
+.btn-service {
+  border-radius: 5px;
+  display: block;
+  background-color: #bf0501;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: all .3s ease;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .btn-service {
+    display: inline-block;
+  }
+}
+
+.btn-service:hover {
+  background-color: #f20701;
+}
+
 .gallery {
   *zoom: 1;
 }
@@ -439,4 +463,47 @@ table > tbody > tr th,
 table > tbody > tr td {
   padding: 10px;
   border-bottom: 1px dotted #005170;
+}
+
+div.services h2 {
+  font-size: 36px;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+}
+
+.services-list li {
+  text-align: center;
+}
+
+.services-list li h3 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.services-list li p {
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+footer.site-footer {
+  padding-top: 10px;
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+
+footer.site-footer h2 {
+  margin: 0;
+}
+
+footer.site-footer p.site-info {
+  text-align: center;
+  background-color: #FFBA00;
+  color: #005170;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
 }

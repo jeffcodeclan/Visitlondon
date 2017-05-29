@@ -40,6 +40,10 @@ $visit-border-color: $white;
 $visit-heading-color: lighten($yellow, 10);
 $visit-text-color: $white;
 
+// services
+$paragraph-services-text-color: $white;
+$paragraph-services-font-size: 1rem;
+
 // grid & responsive
 $breakpoints: (
   phone: 480px,
@@ -62,3 +66,6 @@ $table-hover-bg-cover: darken($yellow, 5);
 
 // footer
 $bg-footer: $dark-blue;
+$footer-color: $white;
+$site-info-bg-color: $yellow;
+$site-info-color: $dark-blue;
