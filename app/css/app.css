@@ -393,3 +393,50 @@ footer {
   max-width: 100%;
   border-radius: 10px;
 }
+
+table {
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  border-collapse: collapse;
+}
+
+table > caption {
+  text-align: left;
+  font-family: "Bitter", serif;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 5px;
+  color: #FFBA00;
+  margin-bottom: 20px;
+}
+
+table thead tr th {
+  background-color: #002c3d;
+  color: #FFFFFF;
+  font-size: 1.3rem;
+}
+
+table > thead > tr,
+table > tbody > tr {
+  color: #FFFFFF;
+  background-color: #005170;
+}
+
+table > thead > tr:nth-child(odd),
+table > tbody > tr:nth-child(odd) {
+  background-color: #0076A3;
+}
+
+table > thead > tr:hover,
+table > tbody > tr:hover {
+  background-color: #e6a700;
+}
+
+table > thead > tr th,
+table > thead > tr td,
+table > tbody > tr th,
+table > tbody > tr td {
+  padding: 10px;
+  border-bottom: 1px dotted #005170;
+}
